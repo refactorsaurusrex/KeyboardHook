@@ -1,6 +1,6 @@
-KeyboardHook
+C# Keyboard Hook
 ============
 
-C# Keyboard Hook
+Everything you need to know can found here: 
 
-Everything you need to know can found here: http://www.refactorsaurusrex.com/keyboard-hooking-with-c-redux/
+http://www.refactorsaurusrex.com/keyboard-hooking-with-c-redux/
