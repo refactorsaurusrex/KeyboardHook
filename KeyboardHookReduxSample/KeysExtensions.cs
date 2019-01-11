@@ -31,7 +31,7 @@ namespace KeyboardHookReduxSample
 
 			string unmodifiedKey = UnmodifiedKey(keys);
 
-			if (string.IsNullOrEmpty(unmodifiedKey))
+			if (string.IsNullOrEmpty(unmodifiedKey) && friendlyString.Length >= 3)
 				friendlyString.Remove(friendlyString.Length - 3, 3);
 			else
 				friendlyString.Append(unmodifiedKey);
